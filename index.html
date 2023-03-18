@@ -384,6 +384,51 @@
     <use href="./images/close-defs.svg#icon-close"></use>
   </svg>
 </button>
+ <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+ <form class="modal-form form">
+   <label class="modal-form">
+      <span class="modal-subtitle">Name</span>
+         <span class="modal-input">
+            <input type="text" class="form-input" name="fullname" required>
+            <svg class="modal-icons" width="12" height="12">
+              <use class="modal-icons-type"href="./images/modal.svg#icon-person"></use>
+            </svg>
+         </span>
+     </label>
+     <label class="modal-form">
+      <span class="modal-subtitle">Phone</span>
+         <span class="modal-input">
+            <input type="text" class="form-input" name="telephone" required>
+            <svg class="modal-icons" width="12" height="12">
+              <use class="modal-icons-type" href="./images/modal.svg#icon-phone"></use>
+            </svg>
+         </span>
+     </label>
+     <label class="modal-form">
+      <span class="modal-subtitle">E-mail</span>
+         <span class="modal-input">
+            <input type="text" class="form-input" name="email" required>
+            <svg class="modal-icons" width="12" height="12">
+              <use class="modal-icons-type" href="./images/modal.svg#icon-mail"></use>
+            </svg>
+         </span>
+     </label>
+ <label class="modal-form">
+  <span class="modal-subtitle">Comment</span>
+<textarea  name="comment"cols="30" rows="10" class="form-text-area" placeholder="Text input"></textarea>
+</label>
+
+<label for="form-policy">
+<input class="form-input-policy" type="checkbox" name="policy">
+<span class="policy-icon"></span>
+<label for="policy"> I accept the terms and conditions of the
+  <a href="">Privacy Policy</a></label>
+</label>
+
+
+
+<button type="submit" class="form-btn btn">Send</button>
+ </form>
 </div>
 </div>
 <script src="modal.js/script.js"></script>
