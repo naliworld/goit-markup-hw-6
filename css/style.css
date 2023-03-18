@@ -1042,13 +1042,12 @@ img{
 }
 
 .form-input:focus{
- fill: var(--accent-text-color-two);
  border: 1px solid var(--accent-text-color-two);
  outline: none;
 }
 
 .form-input:focus + .modal-icons { 
- color: var(--accent-text-color-two);
+ fill: var(--accent-text-color-two);
 }
 
 
@@ -1073,8 +1072,8 @@ img{
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     margin-left: 16px;
 }
 
