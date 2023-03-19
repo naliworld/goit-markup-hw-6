@@ -1017,6 +1017,7 @@ img{
 
 .modal-form{
     position: relative;
+    margin-bottom: 4px;
 }
 
 
@@ -1040,7 +1041,7 @@ img{
     right: 0%;
     top: 31.03%;
     bottom: 0%;
-    border: 1px solid var(--accent-text-color);
+    border: 1px solid var(--subtle-text);
     background-color: var(--modal-color);
     border-radius: 4px;
     margin-bottom: 8px;
@@ -1069,12 +1070,7 @@ img{
     line-height: 14px;
     letter-spacing: 0.04em;
     color: var(--subtle-text);
-    left: 0%;
-    right: 90.56%;
-    top: 0%;
-    bottom: 75.86%;
-    margin-bottom: 4px;
-    padding: 0;
+   
 }
 
 .modal-icons{
