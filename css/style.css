@@ -1077,10 +1077,9 @@ img{
 .modal-icons{
     position: absolute;
     top: 50%;
-    left: 3%;
+    left: 16px;
     padding-left: 4px;
     padding-bottom: 6px;
-    margin-left: 16px;
     transform: translateY(-50%);
     transition-property: fill;
     transition-duration: 250ms;
